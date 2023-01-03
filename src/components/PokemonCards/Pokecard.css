@@ -1,0 +1,24 @@
+
+.card{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    background: url('https://e0.pxfuel.com/wallpapers/728/627/desktop-wallpaper-pokeball-template-pokemon-ball-pokemon-pokemon-go-realistic-pokeball.jpg') no-repeat, center, fixed;
+    background-size: cover;
+  }
+  
+  .container {
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(14, 14, 14);
+    padding: 20px;
+    transition: transform 0.3s ;
+    background-color: rgb(192, 127, 127);
+    background-color: orangered;
+  }
+  
+  .container:hover {
+    transform: scale(1.1);
+  }
+
+  
